@@ -32,5 +32,5 @@ void GamePatches::Init()
 	// Changes the game window title -- not sure
 	strcpy((char*) 0xDD26D8, "Tomb Raider 9 - Modified by CinamonHole");
 
-	Logger(lSAPI, "GamePatches", "Init");
+	Logger(lINFO, "GamePatches", "Init");
 }
